@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="petSuite">
+<listeners>
+<listener class-name="api.utility.extendReportManager"/>
+
+</listeners>
+  <test thread-count="5" name="petTest">
+    <classes>
+      <class name="api.test.userTestProperty"/>
+     <!-- <class name="api.test.datadrivenTest"/>-->
+    </classes>
+  </test>
+</suite>
