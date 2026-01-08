@@ -2,6 +2,10 @@ package api.endpoint;
 import  io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
 
+import java.io.File;
+
+import org.json.JSONObject;
+
 import api.payload.User;
 
 public class user_endpoints {
@@ -37,6 +41,14 @@ public static Response deleteUser(String userName) {
 	Response res;		
 	res=given().accept("application/json").pathParam("user", userName).
 			when().delete(routes.delete_url+"{user}");
+	return res;	
+		}
+
+public static Response createUser(JSONObject body) {
+	Response res;		
+	res=given().accept("application/json").contentType("application/json").
+			body(body).
+			when().post(routes.post_url);
 	return res;	
 		}
 }

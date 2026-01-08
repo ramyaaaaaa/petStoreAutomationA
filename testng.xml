@@ -6,7 +6,8 @@
 </listeners>
   <test thread-count="5" name="petTest">
     <classes>
-      <class name="api.test.userTestProperty"/>
+      <!--  <class name="api.test.userTestProperty"/>-->
+      <class name="api.test.clearingValidation"/>
      <!-- <class name="api.test.datadrivenTest"/>-->
     </classes>
   </test>

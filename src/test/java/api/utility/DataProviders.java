@@ -38,6 +38,27 @@ public class DataProviders {
 
         return apidata;
     }
+    
+    
+    @DataProvider(name="clearingData")
+    public String[][] getclearingData() throws IOException {
+    	String path1 = System.getProperty("user.dir") + "//testdata//Authtoclearing.xlsx";
+    	   
+        excelUtility xl = new excelUtility(path1);
 
+        int rownum = xl.getRowCount("Sheet1");
+        int colcount = xl.getCellCount("Sheet1", 1);
+
+        String apidata[][] = new String[rownum][colcount];
+
+        for (int i = 1; i <= rownum; i++) {
+            for (int j = 0; j < colcount; j++) {
+                apidata[i-1][j] = xl.getCellData("Sheet1", i, j);
+            }
+        }
+
+        return apidata;
+    }
+    
 }
 

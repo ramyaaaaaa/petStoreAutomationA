@@ -1,169 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-04T12:37:00 IST" name="petSuite" finished-at="2026-01-04T12:37:14 IST" duration-ms="13643">
+  <suite started-at="2026-01-08T16:21:05 IST" name="Default suite" finished-at="2026-01-08T16:21:19 IST" duration-ms="14150">
     <groups>
     </groups>
-    <test started-at="2026-01-04T12:37:00 IST" name="petTest" finished-at="2026-01-04T12:37:14 IST" duration-ms="13643">
-      <class name="api.test.userTestProperty">
-        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.userTestProperty@4fbda97b]" started-at="2026-01-04T12:37:02 IST" name="createUser" data-provider="Data" finished-at="2026-01-04T12:37:07 IST" duration-ms="4748" status="PASS">
+    <test started-at="2026-01-08T16:21:05 IST" name="Default test" finished-at="2026-01-08T16:21:19 IST" duration-ms="14150">
+      <class name="api.test.clearingValidation">
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:0, instance:api.test.clearingValidation@62f4ff3b]" started-at="2026-01-08T16:21:07 IST" name="createUser" data-provider="clearingData" finished-at="2026-01-08T16:21:17 IST" duration-ms="9150" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[1010]]>
+                <![CDATA[code]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[testuser1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[John]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Canedy]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[a@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[test@1]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[1234567897]]>
+                <![CDATA[code]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.userTestProperty@4fbda97b]" started-at="2026-01-04T12:37:07 IST" name="createUser" data-provider="Data" finished-at="2026-01-04T12:37:08 IST" duration-ms="1223" status="PASS">
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:0, instance:api.test.clearingValidation@62f4ff3b]" started-at="2026-01-08T16:21:17 IST" name="createUser" data-provider="clearingData" finished-at="2026-01-08T16:21:18 IST" duration-ms="1446" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[1020]]>
+                <![CDATA[type]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[testuser2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Kim]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Kom]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[b@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[test@2]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[1234567897]]>
+                <![CDATA[type]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.userTestProperty@4fbda97b]" started-at="2026-01-04T12:37:08 IST" name="createUser" data-provider="Data" finished-at="2026-01-04T12:37:09 IST" duration-ms="1437" status="PASS">
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:0, instance:api.test.clearingValidation@62f4ff3b]" started-at="2026-01-08T16:21:18 IST" name="createUser" data-provider="clearingData" finished-at="2026-01-08T16:21:19 IST" duration-ms="1320" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[1030]]>
+                <![CDATA[message]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[testuser3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Smith]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Steve]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[c@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[test@3]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[1234567897]]>
+                <![CDATA[message]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="deleteUser(java.lang.String)[pri:1, instance:api.test.userTestProperty@4fbda97b]" started-at="2026-01-04T12:37:10 IST" name="deleteUser" data-provider="UserNames" finished-at="2026-01-04T12:37:11 IST" duration-ms="1313" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testuser1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteUser -->
-        <test-method signature="deleteUser(java.lang.String)[pri:1, instance:api.test.userTestProperty@4fbda97b]" started-at="2026-01-04T12:37:11 IST" name="deleteUser" data-provider="UserNames" finished-at="2026-01-04T12:37:12 IST" duration-ms="1225" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testuser2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteUser -->
-        <test-method signature="deleteUser(java.lang.String)[pri:1, instance:api.test.userTestProperty@4fbda97b]" started-at="2026-01-04T12:37:12 IST" name="deleteUser" data-provider="UserNames" finished-at="2026-01-04T12:37:14 IST" duration-ms="1363" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testuser3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteUser -->
-      </class> <!-- api.test.userTestProperty -->
-    </test> <!-- petTest -->
-  </suite> <!-- petSuite -->
+      </class> <!-- api.test.clearingValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

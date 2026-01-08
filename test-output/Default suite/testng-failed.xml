@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.test.userTestProperty">
+      <class name="api.test.clearingValidation">
         <methods>
-          <include name="deleteUser" invocation-numbers="0 1 2"/>
+          <include name="createUser" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- api.test.userTestProperty -->
+      </class> <!-- api.test.clearingValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
